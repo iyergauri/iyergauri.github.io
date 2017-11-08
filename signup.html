@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col">
+        <div class="panel-heading">
+          <div class="panel-title text-center">
+            <h1 class="title">Sign Up</h1>
+            <hr/>
+          </div>
+        </div> 
+        <div>
+          <form method="get" action="/">
+            
+            <div class="form-group">
+              <label for="name">Name</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name" required></input>
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+                <div class="input-group">
+                  <input type="number" class="form-control" name="password" id="age"  placeholder="Enter your Age" required/>
+                </div>     
+            </div>
+
+            <div class="form-group">
+              <label for="email" >Email</label>
+                <div class="input-group">
+                  <input type="email" class="form-control" name="email" id="email"  placeholder="Enter your Email" required/>
+                </div>              
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+                <div class="input-group">
+                  <input type="password" class="form-control" name="password" id="password"  placeholder="Create a Password" required/>
+                </div>     
+            </div>
+            
+            <div>
+            <h3>Modifications</h3>
+              <label> Select all that Apply:</label>
+            </div>
+           
+        <label class="btn btn-info">
+          <input type="checkbox" autocomplete="off"> Knee
+        </label>
+        <label class="btn btn-info">
+          <input type="checkbox" autocomplete="off"> Back
+        </label>
+        <label class="btn btn-info">
+          <input type="checkbox" autocomplete="off"> Wrist
+        </label>
+
+
+            <div>
+              <input type="submit" class="btn btn-primary btn-lg btn-block login-button" value="Sign Up">
+            </div>
+            <label>Already have an account?</label>
+            <div>
+                    <a href="login.html">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
