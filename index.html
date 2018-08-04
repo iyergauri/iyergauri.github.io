@@ -7,14 +7,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel-"style sheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #dfe2d2;
+      color: #323339;
+      border: 0;
+    }
+  </style>
 </head>
 
 <body>
+  <!--- navigation bar ----------------------->
+  <nav class="navbar navbar-expand-sm navbar-light" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- logo -->
+    <a class="navbar-brand" href="#"><img src="img/logo_small.png" alt="#"></a>
+
+
+    <!-- links to pages -->
+    <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+      <ul class="navbar-nav">
+        <li class="active">
+          <a class="nav-link" href="#">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">cs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">retail</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- page text ----------------------------->
   <div class="outer">
-    <h1>Gauri Iyer</h1>
-    <h2>i am ready 2 go!</h2>
-    <p>gaiyer@ucsd.edu</p>
+    <h1 class="text-center">gauri iyer</h1>
+    <h2 class="text-center">i am ready 2 go!</h2>
+    <p class="text-center">gaiyer@ucsd.edu</p>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
