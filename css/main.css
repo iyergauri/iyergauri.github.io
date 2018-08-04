@@ -1,0 +1,56 @@
+/* DM me @super_gory on twitter or insta with your favorite carbohydrate */
+
+/* navigation bar */
+.navbar {
+  background-color: #dfe2d2;
+  color: #323339;
+  border: 0;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .actove> a:focus {
+  color:#f26968;
+  background-color: #dfe2d2;
+}
+
+/* row formatting */
+.outer > .row {
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+/* text */
+h1 {
+  color: #314233;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+p {
+  color: #314233;
+  background-color: #FFFFFF;
+}
+
+/* footer */
+html, body {
+  height: 100%;
+}
+
+footer > p {
+  margin-top: 50px;
+  color: #f2ad9f;
+  background-color: #FFFFFF;
+}
+
+/* links */
+.link {
+  color: #f26968;
+  background-color: #FFFFFF;
+}
+
+.link:hover {
+  color: #6cbf84;
+  background-color: #FFFFFF;
+}
