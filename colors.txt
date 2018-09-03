@@ -1,5 +1,5 @@
-#f2ad9f pale pink
-#f26968 deep pink
+#eceff1 lightest gray
+#babdbe darker blue gray
 #dfe2d2 pale green
 #6cbf84 medium green
 #314233 dark green

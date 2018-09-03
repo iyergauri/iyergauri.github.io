@@ -22,15 +22,27 @@
 
 /* text */
 h1 {
+  font-family: 'Fredericka the Great', cursive;
   color: #314233;
   background-color: #FFFFFF;
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 p {
   color: #314233;
   background-color: #FFFFFF;
+  margin: 20px;
+}
+
+/* img */
+.img-fluid {
+  width: 100%;
+  max-width: 300px;
 }
 
 /* footer */
