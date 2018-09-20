@@ -1,5 +1,0 @@
-#eceff1 lightest gray
-#babdbe darker blue gray
-#dfe2d2 pale green
-#6cbf84 medium green
-#314233 dark green

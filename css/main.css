@@ -1,72 +1,93 @@
 /* DM me @super_gory on twitter or insta with your favorite carbohydrate */
-
-/* navigation bar */
-.navbar {
-  background-color: #dfe2d2;
-  color: #323339;
-  border: 0;
+/* general */
+:root {
+  --white: #ffffff;
+  --bg: #ececec;
+  --light-neutral: #ececec;
+  --med-neutral: #777;
+  --light-color: #dfe2d2;
+  --med-color: #6cbf84;
+  --dark-color: #314233;
+  --black: #000;
 }
 
-.navbar .navbar-brand > h1 {
-  font-family: 'Fredericka the Great', cursive;
-  color: #314233;
-  background-color: #dfe2d2;
-  font-size: 30px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.navbar .navbar-nav > .active > a,
-.navbar .navbar-nav > .active > a:hover,
-.navbar .navbar-nav > .actove> a:focus {
-  color:#f26968;
-  background-color: #dfe2d2;
-}
-
-/* row formatting */
-.outer > .row {
-  margin-top: 20px;
-  margin-bottom:20px;
-  margin-right:0px;
-  margin-left:0px
-}
-
-/* text */
-h1 {
-  font-family: 'Fredericka the Great', cursive;
-  color: #314233;
-  background-color: #FFFFFF;
-  margin-top: 20px;
-  margin-bottom: 40px;
+html, body {
+  height: 100%;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
+  background-color: var(--bg);
 }
 
 .content {
   flex: 1 0 auto;
 }
 
+hr {
+  margin-top: 0;
+}
+
+
+/* text */
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  color: var(--dark-color);
+  background-color: var(--bg);
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
 p {
-  color: #314233;
-  background-color: #FFFFFF;
-  margin: 20px;
+  color: var(--dark-color);
+  background-color: var(--bg);
+  margin: 1em;
+}
+
+
+/* navigation bar */
+.navbar {
+  background-color: var(--bg);
+  color: var(--med-color);
+  border: 0;
+}
+
+.navbar .navbar-brand > h1 {
+  font-family: 'Fredericka the Great', cursive;
+  color: var(--black);
+  background-color: var(--bg);
+  font-size: 1.4em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active> a:focus {
+  color: var(--med-color);
+  background-color: var(--bg);
+}
+
+/* row formatting */
+.outer > .row {
+  margin: 1em;
+  border-left: 0.3em var(--dark-color) solid;
+}
+
+.outer > .row > .col > p {
+  color: var(--dark-color);
 }
 
 /* img */
 .img-fluid {
   width: 100%;
-  max-width: 300px;
+  max-width: 20em;
+  border: 0.3em var(--dark-color) solid;
 }
 
 /* footer */
-html, body {
-  height: 100%;
-}
-
 .footer {
   flex-shrink: 0;
   max-width: 100%;
@@ -74,19 +95,19 @@ html, body {
 
 .footer > p {
   /* margin-top: 50px; */
-  color: #f2ad9f;
-  background-color: #FFFFFF;
-  margin-left: 20px;
-  margin-right: 20px;
+  color: var(--med-neutral);
+  background-color: var(--bg);
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /* links */
 .link {
-  color: #f26968;
-  background-color: #FFFFFF;
+  color: var(--dark-color);
+  background-color: var(--bg);
 }
 
 .link:hover {
-  color: #6cbf84;
-  background-color: #FFFFFF;
+  color: var(--med-color);
+  background-color: var(--bg);
 }
