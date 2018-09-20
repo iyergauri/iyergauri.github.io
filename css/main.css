@@ -65,9 +65,12 @@ p {
 
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
-.navbar .navbar-nav > .active> a:focus {
+.navbar .navbar-nav > .active> a:focus,
+.navbar .navbar-nav > .nav-item > a:hover,
+.navbar .navbar-nav > .nav-item > a:focus {
   color: var(--med-color);
   background-color: var(--bg);
+  font-weight: bold;
 }
 
 /* row formatting */
@@ -83,7 +86,7 @@ p {
 /* img */
 .img-fluid {
   width: 100%;
-  max-width: 20em;
+  max-width: 15em;
   border: 0.3em var(--dark-color) solid;
 }
 
