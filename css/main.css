@@ -35,11 +35,20 @@ hr {
 
 /* text */
 h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Fredericka the Great', serif;
   color: var(--dark-color);
   background-color: var(--bg);
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark-color);
+  background-color: var(--bg);
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 1em;
 }
 
 p {
@@ -86,17 +95,21 @@ p {
   /* border-bottom: 0.2em var(--dark-color) solid; */
 }
 
-.outer > .row > .hastext
-{
+.outer > .row > .hastext {
   color: var(--dark-color);
   border-left: 0.2em var(--dark-color) solid;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
+}
+
+.outer > .journal {
+  border-left: 0.2em var(--med-color) solid;
 }
 
 /* img */
 .img-fluid {
   width: 100%;
-  max-width: 15em;
+  max-width: 18em;
+  min-width: 10em;
   border: 0.2em var(--dark-color) solid;
 }
 
