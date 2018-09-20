@@ -39,7 +39,9 @@ h1 {
   color: var(--dark-color);
   background-color: var(--bg);
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
+  margin-left:0.5em;
+  margin-right:0.5em;
 }
 
 h2 {
@@ -49,6 +51,7 @@ h2 {
   font-size: 1.3em;
   font-weight: 600;
   margin-bottom: 1em;
+  margin-top:0em;
 }
 
 p {
@@ -101,8 +104,23 @@ p {
   margin-bottom: 3em;
 }
 
-.outer > .journal {
-  border-left: 0.2em var(--med-color) solid;
+* > .journal > .hasimage {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+* > .journal > .hasimage > .img-fluid {
+  width: 100%;
+  max-width: 7em;
+  min-width: 4em;
+  border: 0em;
+}
+
+*.journal > .text-left {
+  margin-left: 0;
+  padding-left: 0;
 }
 
 /* img */
