@@ -146,9 +146,10 @@ p {
 }
 
 /* links */
-.link {
+* > .link {
   color: var(--dark-color);
   background-color: var(--bg);
+  font-weight: bold;
 }
 
 .link:hover {
