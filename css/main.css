@@ -2,11 +2,12 @@
 :root {
   --white: #ffffff;
   --bg: #ececec;
-  --light-neutral: #ececec;
-  --med-neutral: #777;
-  --light-color: #dfe2d2;
-  --med-color: #6cbf84;
+  --light-neutral: #e7baa0;
+  --med-neutral: #6d7973;
+  --light-color: #e7baa0;
+  --med-color: #6d7973;
   --dark-color: #314233;
+  --variant: #6d7973;
   --black: #000;
 }
 
@@ -32,9 +33,12 @@ hr {
 }
 
 
+
+
 /* text */
 h1 {
-  font-family: 'Fredericka the Great', serif;
+  font-family: 'Crete Round', serif;
+  font-weight: bold;
   color: var(--dark-color);
   background-color: var(--bg);
   margin-top: 1em;
@@ -45,7 +49,7 @@ h1 {
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  color: var(--dark-color);
+  color: var(--variant);
   background-color: var(--bg);
   font-size: 1.3em;
   font-weight: 700;
@@ -54,9 +58,10 @@ h2 {
 }
 
 h3 {
-  font-family: 'Roboto', sans-serif;
-  color: var(--med-neutral);
+  font-family: 'Crete Round', sans-serif;
+  color: var(--variant);
   background-color: var(--bg);
+  font-weight: bold;
   font-size: 1.2em;
 }
 
@@ -66,6 +71,10 @@ p {
   margin: 1em;
 }
 
+.thicc-hr {
+  width: 200%;
+  color: var(--dark-color);
+}
 
 /* navigation bar */
 .navbar {
@@ -75,7 +84,7 @@ p {
 }
 
 .navbar .navbar-brand > h1 {
-  font-family: 'Fredericka the Great', serif;
+  font-family: 'Crete Round', serif;
   color: var(--black);
   background-color: var(--bg);
   font-size: 1.4em;
