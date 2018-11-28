@@ -50,7 +50,7 @@ h2 {
   font-family: 'Roboto', sans-serif;
   color: var(--med-color);
   background-color: var(--bg);
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 700;
   margin-bottom: 1em;
   margin-top:0em;
@@ -145,6 +145,7 @@ p {
   min-width: 10em;
   border-radius: 50%;
   border: 0.2em var(--med-color) solid;
+  margin-bottom: 2em;
 }
 
 /* footer */
