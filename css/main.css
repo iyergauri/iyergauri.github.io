@@ -1,12 +1,13 @@
 /* general */
 :root {
   --white: #ffffff;
-  --bg: #ececec;
+  --bg: #ffffff;
+  /*--bg: #ececec;*/
   --light-neutral: #e7baa0;
   --med-neutral: #6d7973;
-  --light-color: #e7baa0;
-  --med-color: #6d7973;
-  --dark-color: #314233;
+  --light-color: #8EBCB2;
+  --med-color: #469079;
+  --dark-color: #294A3F;
   --variant: #6d7973;
   --black: #000;
 }
@@ -33,8 +34,6 @@ hr {
 }
 
 
-
-
 /* text */
 h1 {
   font-family: 'Crete Round', serif;
@@ -49,7 +48,7 @@ h1 {
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  color: var(--variant);
+  color: var(--med-color);
   background-color: var(--bg);
   font-size: 1.3em;
   font-weight: 700;
@@ -79,13 +78,13 @@ p {
 /* navigation bar */
 .navbar {
   background-color: var(--bg);
-  color: var(--med-color);
+  color: var(--light-color);
   border: 0;
 }
 
 .navbar .navbar-brand > h1 {
   font-family: 'Crete Round', serif;
-  color: var(--black);
+  color: var(--light-color);
   background-color: var(--bg);
   font-size: 1.4em;
   margin-top: 0;
