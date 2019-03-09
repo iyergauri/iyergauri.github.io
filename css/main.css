@@ -163,6 +163,13 @@ p {
 }
 
 /* links */
+h1 > .link {
+  color: var(--dark-color);
+	text-decoration: underline;
+  background-color: var(--bg);
+  font-weight: bold;
+}
+
 * > .link {
   color: var(--dark-color);
   background-color: var(--bg);
