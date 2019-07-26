@@ -114,12 +114,12 @@ p {
 }
 
 .titley {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--med-color);
   background-color: var(--bg);
   font-weight: bold;
-  font-size: 1em;
-  margin: 2em;
+  font-size: 1.2em;
+  margin: 2rem;
 }
 /* row formatting */
 .outer > .row {
