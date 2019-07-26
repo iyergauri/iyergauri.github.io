@@ -70,6 +70,13 @@ p {
   margin: 1em;
 }
 
+.essay {
+  color: var(--dark-color);
+  background-color: var(--bg);
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 .thicc-hr {
   width: 200%;
   color: var(--dark-color);
@@ -106,6 +113,14 @@ p {
   font-weight: bold;
 }
 
+.titley {
+  font-family: 'Poppins', sans-serif;
+  color: var(--med-color);
+  background-color: var(--bg);
+  font-weight: bold;
+  font-size: 1em;
+  margin: 2em;
+}
 /* row formatting */
 .outer > .row {
   margin: 1em;
