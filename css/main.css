@@ -28,9 +28,7 @@ body {
 }
 
 hr {
-  margin-top: 0;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 0 1em;
 }
 
 
@@ -40,10 +38,7 @@ h1 {
   font-weight: bold;
   color: var(--dark-color);
   background-color: var(--bg);
-  margin-top: 1em;
-  margin-bottom: 1.5em;
-  margin-left:0.5em;
-  margin-right:0.5em;
+  margin: 1em 0.5em 1.5em;
 }
 
 h2 {
@@ -52,8 +47,7 @@ h2 {
   background-color: var(--bg);
   font-size: 1.5em;
   font-weight: 700;
-  margin-bottom: 1em;
-  margin-top:0em;
+  margin: 1em 0 0;
 }
 
 h3 {
@@ -73,8 +67,7 @@ p {
 .essay {
   color: var(--dark-color);
   background-color: var(--bg);
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 0 2em;
 }
 
 .thicc-hr {
@@ -119,38 +112,32 @@ p {
   background-color: var(--bg);
   font-weight: bold;
   font-size: 1.2em;
-  margin: 2rem;
+  margin: 2em;
 }
+
+
 /* row formatting */
+.outer {
+	margin: 0 2em 0 0;
+}
+
 .outer > .row {
   margin: 1em;
-  /* border-bottom: 0.2em var(--dark-color) solid; */
 }
 
-.outer > .row > .hastext {
+* > .hastext {
   color: var(--dark-color);
   border-left: 0.2em var(--dark-color) solid;
-  padding-right: 3em;
-  margin-bottom: 1em;
+	margin: 1em 0;
 }
 
-* > .journal > .hasimage {
-  margin-left: 0;
-  padding-left: 0;
-  padding-right: 0;
-  margin-right: 0;
+* > .hastext > .row {
+	padding: 1em;
 }
 
-* > .journal > .hasimage > .img-fluid {
-  width: 100%;
-  max-width: 7em;
-  min-width: 4em;
-  border: 0em;
-}
-
-*.journal > .text-left {
-  margin-left: 0;
-  padding-left: 0;
+* > .hastext > .row > .heading {
+	font-weight: bold;
+	padding: 0 0.4em 0 0;
 }
 
 /* img */
@@ -164,25 +151,20 @@ p {
 }
 
 /* footer */
-.footer {
+footer {
   flex-shrink: 0;
   max-width: 100%;
 }
 
-.footer > p {
+footer > p {
   /* margin-top: 50px; */
   color: var(--med-color);
   background-color: var(--bg);
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
 /* links */
-h1 > .link {
-  color: var(--dark-color);
+h1 > .link:hover {
 	text-decoration: underline;
-  background-color: var(--bg);
-  font-weight: bold;
 }
 
 * > .link {
@@ -196,4 +178,5 @@ h1 > .link {
   font-weight: bold;
   background-color: var(--bg);
 }
-/* DM me @super_gory on twitter or insta with your favorite carbohydrate */
+
+/* DM me @super_gory on twitter or insta with your favorite houseplant */
