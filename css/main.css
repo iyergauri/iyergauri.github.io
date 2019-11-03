@@ -1,15 +1,11 @@
 /* general */
 :root {
-  --white: #ffffff;
-  --bg: #ffffff;
-  /*--bg: #ececec;*/
-  --light-neutral: #e7baa0;
-  --med-neutral: #6d7973;
-  --light-color: #8EBCB2;
-  --med-color: #469079;
-  --dark-color: #294A3F;
-  --variant: #6d7973;
-  --black: #000;
+  --bg: #fffdf5;
+  --light-color: #601A00;
+  --med2-color: #d27f36;
+  --nav-color: #2e1e1d;
+  --med-color: #842a09;
+  --dark-color: #360400;
 }
 
 @-webkit-keyframes tada {
@@ -20,23 +16,23 @@
 
   10%,
   20% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
+    transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
   }
 
   30%,
   50%,
   70%,
   90% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
+    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
   }
 
   40%,
   60%,
   80% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
+    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
   }
 
   to {
@@ -53,23 +49,23 @@
 
   10%,
   20% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
+    transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
   }
 
   30%,
   50%,
   70%,
   90% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
+    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
   }
 
   40%,
   60%,
   80% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
+    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
   }
 
   to {
@@ -120,7 +116,7 @@ h2 {
 
 h3 {
   font-family: 'Poppins', sans-serif;
-  color: var(--variant);
+  color: var(--med2-color);
   background-color: var(--bg);
   font-weight: bold;
   font-size: 1.2em;
@@ -164,6 +160,11 @@ p {
 .navbar .navbar-brand > h1:focus {
   color: var(--med-color);
 }
+
+.navbar .navbar-nav > .nav-item > .nav-link {
+	color: var(--nav-color);
+}
+
 
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
