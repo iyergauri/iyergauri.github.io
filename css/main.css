@@ -16,23 +16,23 @@
 
   10%,
   20% {
-    -webkit-transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
-    transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: scale3d(0.98, 0.98, 0.98) rotate3d(0, 0, 1, -0.3deg);
+    transform: scale3d(0.98, 0.98, 0.98) rotate3d(0, 0, 1, -0.3deg);
   }
 
   30%,
   50%,
   70%,
   90% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
-    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
+    -webkit-transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, 0.3deg);
+    transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, 0.3deg);
   }
 
   40%,
   60%,
   80% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
-    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, -0.3deg);
+    transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, -0.3deg);
   }
 
   to {
@@ -49,23 +49,23 @@
 
   10%,
   20% {
-    -webkit-transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
-    transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: scale3d(0.98, 0.98, 0.98) rotate3d(0, 0, 1, -0.3deg);
+    transform: scale3d(0.98, 0.98, 0.98) rotate3d(0, 0, 1, -0.3deg);
   }
 
   30%,
   50%,
   70%,
   90% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
-    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 1deg);
+    -webkit-transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, 0.3deg);
+    transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, 0.3deg);
   }
 
   40%,
   60%,
   80% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
-    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, -0.3deg);
+    transform: scale3d(1.02, 1.02, 1.02) rotate3d(0, 0, 1, -0.3deg);
   }
 
   to {
@@ -185,12 +185,6 @@ p {
   margin: 2em;
 }
 
-
-/* row formatting */
-.outer {
-	margin: 0 2em 0 0;
-}
-
 .outer > .row {
   margin: 1em;
 }
@@ -220,6 +214,14 @@ p {
   margin-bottom: 2em;
 }
 
+.vidya {
+  max-width: 90%;
+  min-width: 20em;
+  padding: 2em;
+  margin: auto;
+  display: block;
+}
+
 /* footer */
 footer {
   flex-shrink: 0;
@@ -241,6 +243,7 @@ h1 > .link:hover {
   color: var(--dark-color);
   background-color: var(--bg);
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .link:hover {
