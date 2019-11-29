@@ -185,23 +185,19 @@ p {
   margin: 2em;
 }
 
-.outer > .row {
-  margin: 1em;
+* > .row {
+  margin: .25em;
+}
+
+* > .row .heading {
+  font-weight: bold;
+  margin: 1em .2em .2em;
 }
 
 * > .hastext {
   color: var(--dark-color);
   border-left: 0.2em var(--dark-color) solid;
-	margin: 1em 0;
-}
-
-* > .hastext > .row {
-	padding: 1em;
-}
-
-* > .hastext > .row > .heading {
-	font-weight: bold;
-	padding: 0 0.4em 0 0;
+  margin: 1em 0;
 }
 
 /* img */
@@ -225,7 +221,8 @@ p {
 /* footer */
 footer {
   flex-shrink: 0;
-  max-width: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 footer > p {
