@@ -253,4 +253,9 @@ h1 > .link:hover {
   background-color: var(--bg);
 }
 
+.buffer {
+  padding: 2em;
+  text-align: center;
+}
+
 /* DM me @super_gory on twitter or insta with your favorite houseplant */
