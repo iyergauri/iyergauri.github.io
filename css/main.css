@@ -189,7 +189,7 @@ p {
   margin: .25em;
 }
 
-* > .row > .heading {
+.row > .heading,  .row .heading{
   font-weight: bold;
   margin: 1em .1em .2em;
 }
