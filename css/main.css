@@ -189,9 +189,13 @@ p {
   margin: .25em;
 }
 
-* > .row .heading {
+* > .row > .heading {
   font-weight: bold;
-  margin: 1em .2em .2em;
+  margin: 1em .1em .2em;
+}
+
+* > .row > .body {
+  margin: 1em .4em .2em;
 }
 
 * > .hastext {
