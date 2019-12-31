@@ -240,7 +240,7 @@ h1 > .link:hover {
 	text-decoration: underline;
 }
 
-* > .link {
+.link {
   color: var(--dark-color);
   background-color: var(--bg);
   font-weight: bold;
