@@ -1,118 +1,120 @@
 <!DOCTYPE html>
-<!-- if you're reading my soure code you are legally required
-  to hire me, sorry I don't make the rules -->
 <html lang="en">
-  <head>
-    <title>Gauri Iyer</title>
-    <!-- necessary encoding & bootstrap -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-                           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <!-- stylesheets & icons -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <script src="src/main.js"></script>
+<head>
+  <title>Gauri Iyer</title>
+  <!-- necessary encoding & bootstrap -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109839763-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <!-- stylesheets & icons -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <script src="src/main.js"></script>
 
-        gtag('config', 'UA-109839763-2');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109839763-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  </head>
-  <body>
-    <div class="content">
-      <!-- navigation bar -->
-      <nav class="navbar navbar-expand-sm navbar-light" >
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    gtag('config', 'UA-109839763-2');
+  </script>
 
-        <!-- logo -->
-        <a class="navbar-brand" onclick="kachow()">
-          <p class="logo" id="logo">gauri iyer</p>
-        </a>
+</head>
 
-        <!-- links to pages -->
-        <div class="collapse navbar-collapse justify-content-end" id="nav-content">
-          <ul class="navbar-nav">
-            <li class="active">
-              <a class="nav-link" href="./">home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./cs/">cs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./music/">music</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./community/">community</a>
-            </li>
-          </ul>
+<body>
+  <div class="content">
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- logo -->
+      <a class="navbar-brand" onclick="kachow()">
+        <p class="logo" id="logo">gauri iyer</p>
+      </a>
+
+      <!-- links to pages -->
+      <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+        <ul class="navbar-nav">
+          <li class="active">
+            <a class="nav-link" href="./">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cs/">cs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./music/">music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./community/">community</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+
+    <!-- page text -->
+    <div class="outer">
+      <h1 class="text-center">home</h1>
+      <div class="row">
+        <div class="col-md-4 my-auto">
+          <img src="img/newme.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
         </div>
-      </nav>
-      <hr>
 
-      <!-- page text -->
-      <div class="outer">
-        <h1 class="text-center">home</h1>
-        <div class="row">
-          <div class="col-md-4 my-auto">
-            <img src="img/newme.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
-          </div>
+        <div class="col-sm-8 hastext my-auto">
+          <div class="row heading">studying:</div>
+          <div class="row"> UC San Diego, M.S. in computer science, depth in HCI '20; </div>
+          <div class="row"> UC San Diego, B.S. in computer science, minor in music '19 </div>
 
-          <div class="col-sm-8 hastext my-auto">
-            <div class="row heading">studying:</div>
-            <div class="row"> UC San Diego, M.S. in computer science, depth in HCI '20; </div>
-            <div class="row"> UC San Diego, B.S. in computer science, minor in music '19 </div>
+          <div class="row heading">intern at:</div>
+          <div class="row"> Google '19, Amazon '18, Northrop Grumman '17, HyTrust '16 </div>
 
-            <div class="row heading">intern at:</div>
-            <div class="row"> Google '19, Amazon '18, Northrop Grumman '17, HyTrust '16 </div>
+          <div class="row heading">interested in:</div>
+          <div class="row">CSEd, e-learning, accessibility design, UX, HCI</div>
 
-            <div class="row heading">interested in:</div>
-            <div class="row">CSEd, e-learning, accessibility design, UX, HCI</div>
+          <div class="row heading">where I am right now:</div>
+          <div class="row">San Diego, CA </div>
 
-            <div class="row heading">where I am right now:</div>
-            <div class="row">San Diego, CA </div>
+          <div class="row heading">what I'm doing: </div>
+          <div class="row"> taking CSE 230 (PL) and GPPA 477 (Cybersecurity Policy); teaching
+            COGS 3 (webdev); working on a HCI4healthcare research project </div>
 
-	    <div class="row heading">what I'm doing: </div>
-            <div class="row"> enjoying my time away from classes, briefly </div>
-            
-            <div class="row heading">soon:</div>
-            <div class="row"> UX Engineer @ Google, bay area </div>
-          </div>
-
+          <div class="row heading">soon:</div>
+          <div class="row"> UX Engineer @ Google, bay area </div>
         </div>
+
       </div>
     </div>
+  </div>
 
-    <!-- footer -->
-    <footer>
-      <hr>
-      <p class="text-center">
+  <!-- footer -->
+  <footer>
+    <hr>
+    <p class="text-center">
       contact me at
       <a class="link" href="mailto:iyergauri@google.com">iyergauri@gmail.com</a>
       or on linkedin at
       <a class="link" href="https://www.linkedin.com/in/iyergauri/">iyergauri</a>
-      </p>
-    </footer>
+    </p>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
