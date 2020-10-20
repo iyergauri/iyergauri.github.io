@@ -29,8 +29,8 @@ h1 {
   font-family: 'Poppins', serif;
   color: var(--dark-color);
   margin: 1em 0.5em 1.5em;
-	-webkit-animation: tada 1s 1;
-	animation: tada 1s 1;
+	/* -webkit-animation: tada 1s 1; */
+	/* animation: tada 1s 1; */
 }
 
 h2 {
