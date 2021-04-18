@@ -102,17 +102,17 @@ p {
   border: 0.2em var(--med-color) solid;
 }
 
-.link, .link:hover {
+.link, .link:hover, .yoga-text a {
   font-weight: bold;
   background-color: var(--bg);
   text-decoration: underline;
 }
 
-.link {
+.link, .yoga-text a {
   color: var(--dark-color);
 }
 
-.link:hover {
+.link:hover, .yoga-text a {
   color: var(--med-color);
 }
 
@@ -121,4 +121,21 @@ p {
   text-align: center;
 }
 
+.yoga-text, .yoga-heading {
+  font-family: 'Poppins', serif;
+  text-align: center;
+}
+
+.outer {
+  width: 100%;
+}
+
+iframe {
+  margin-top: 2em;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  min-width: 75%;
+  min-height: 75vh;
+}
 /* DM me @super_gory on twitter or insta with your favorite houseplant */
