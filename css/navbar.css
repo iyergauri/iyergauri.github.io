@@ -1,50 +1,90 @@
 @import url("colors.css");
+@import url("animations.css");
 
 .navbar {
+  font-family: 'Work Sans', sans-serif;
   background-color: var(--bg);
   color: var(--light-color);
   border: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.navbar .navbar-brand > .logo {
-  font-family: 'Poppins', serif;
-  color: var(--light-color);
-	font-weight:bold;
-  background-color: var(--bg);
-  font-size: 1.4em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.navbar .navbar-brand > h1:hover,
-.navbar .navbar-brand > h1:focus {
-  color: var(--med-color);
-}
-
-.navbar .navbar-nav > .nav-item > .nav-link {
-	color: var(--nav-color);
-}
-
-
-.navbar .navbar-nav > .active > a,
-.navbar .navbar-nav > .active > a:hover,
-.navbar .navbar-nav > .active> a:focus,
-.navbar .navbar-nav > .nav-item > a:hover,
-.navbar .navbar-nav > .nav-item > a:focus {
-  color: var(--med-color);
-  background-color: var(--bg);
+.logo {
+  color: #000;
+  font-size: 2.5em;
   font-weight: bold;
+  margin: 10px;
+
+  background: linear-gradient(48deg, var(--light-color), var(--med2-color));
+  background-size: 200%;
+  
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-animation: var(--fade);
+  -moz-animation: var(--fade);
+  animation: fade 5s ease infinitevar(--fade);
 }
 
-/* footer */
+.nav-links {
+  margin: auto 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
+/* navbar formatted for mobile */
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .logo {
+    text-align: center;
+    margin: 0;
+  }
+
+  .nav-links {
+    margin: 0 auto;
+    flex-flow: row wrap;
+  }
+}
+
+.nav-link {
+	color: var(--light-color);
+  text-decoration: none;
+  background: var(--nav-bg);
+  border: var(--nav-bg) solid 2px;
+  border-radius: 24px;
+  line-height: 1rem;;
+  padding: 3px 10px;
+  margin: 2px;
+
+  -webkit-transition: var(--hover);
+  -moz-transition: var(--hover);
+  -o-transition: var(--hover);
+  transition: var(--hover);
+}
+
+.nav-link:hover, .nav-link.active:hover {
+  background-color: var(--bg);
+  font-weight: 600;
+  border: var(--med2-color) solid 2px;
+  color: var(--med2-color);
+}
+
+.nav-link.active {
+  color:var(--dark-color);
+  font-weight: 600;
+}
+
 footer {
   flex-shrink: 0;
   width: 100%;
   text-align: center;
-}
-
-footer > p {
-  /* margin-top: 50px; */
   color: var(--med-color);
-  background-color: var(--bg);
+  padding: 1rem 0;
 }

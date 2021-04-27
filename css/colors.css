@@ -3,6 +3,13 @@
   --light-color: #601A00;
   --med2-color: #d27f36;
   --nav-color: #2e1e1d;
+  --nav-bg: #ffe8d4;
   --med-color: #842a09;
   --dark-color: #360400;
+
+  --shadow: inset 0px 0px 0px 2px var(--med2-color);
+
+  --hover: background-color 200ms ease-out, border 200ms ease-out, color 200ms ease-out;
+
+  --fade: fade 5s ease infinite;
 }

@@ -46,11 +46,11 @@ h3 {
   font-size: 1.2em;
 }
 
-p {
+/* p {
   color: var(--dark-color);
   background-color: var(--bg);
   margin: 1em;
-}
+} */
 
 #projHeading {
   margin: 1.5em 0;
