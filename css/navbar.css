@@ -13,20 +13,9 @@
 
 .logo {
   color: #000;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold;
   margin: 10px;
-
-  background: linear-gradient(48deg, var(--light-color), var(--med2-color));
-  background-size: 200%;
-  
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  -webkit-animation: var(--fade);
-  -moz-animation: var(--fade);
-  animation: fade 5s ease infinitevar(--fade);
 }
 
 .nav-links {
@@ -71,20 +60,19 @@
 
 .nav-link:hover, .nav-link.active:hover {
   background-color: var(--bg);
-  font-weight: 600;
+  font-weight: 500;
   border: var(--med2-color) solid 2px;
   color: var(--med2-color);
 }
 
 .nav-link.active {
   color:var(--dark-color);
-  font-weight: 600;
+  font-weight: 500;
 }
 
-footer {
-  flex-shrink: 0;
+.contact {
   width: 100%;
   text-align: center;
   color: var(--med-color);
-  padding: 1rem 0;
+  margin: 32px 0;
 }

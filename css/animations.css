@@ -14,3 +14,24 @@
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
+
+.logo {
+  background: linear-gradient(48deg, var(--light-color), var(--med2-color));
+  background-size: 200%;
+  
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-animation: var(--fade) 5s ease infinite;
+  -moz-animation: var(--fade) 5s ease infinite;
+  animation: fade 5s ease infinite;
+}
+
+/*
+	background: linear-gradient(48deg,var(--bg), var(--nav-bg));
+	background-size: 400% 400%;
+	animation: fade 5s ease infinite;
+  -webkit-animation: var(--fade);
+  -moz-animation: var(--fade);
+*/
