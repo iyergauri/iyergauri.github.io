@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -75,4 +76,5 @@
   text-align: center;
   color: var(--med-color);
   margin: 32px 0;
+  flex-shrink: 0;
 }
