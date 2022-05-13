@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Spline+Sans&display=swap');
+
+body {
+ background-color: linen;
+ padding: 2rem;
+}
+
+.main {
+ margin: auto;
+ width: fit-content;
+}
+
+#error {
+ font-family: 'Lora', serif;
+ font-weight: bold;
+}
