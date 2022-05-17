@@ -2,117 +2,50 @@
 <html lang="en">
 
 <head>
-  <title>Gauri Iyer</title>
-  <!-- necessary encoding & bootstrap -->
+  <title>gauri</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
-  <!-- stylesheets & icons -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <script src="src/main.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109839763-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-109839763-2');
-  </script>
-
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- todo add favicon -->
 </head>
 
 <body>
-  <div class="content">
-    <!-- navigation bar -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <div class="main">
+    <svg id="logo" viewBox="0 0 315 132" xmlns="http://www.w3.org/2000/svg">
+      <path id="g"
+        d="M115.938 45.3522L112.743 43.6297C109.19 41.7139 105.015 41.3109 101.161 42.5117L64.778 53.8492C51.6801 57.9307 41.5728 68.4175 37.9767 81.657V81.657C35.5062 90.7523 45.8003 97.9302 53.4808 92.4676L104.292 56.3291C106.9 54.4744 110.555 55.5127 111.798 58.4614L133.313 109.499C134.408 112.096 136.317 114.267 138.752 115.684L140 116.411L94.0625 123L96.723 118.993C97.8475 117.299 98.5233 115.348 98.687 113.321L101.05 84.0548C101.354 80.299 97.5236 77.582 94.0625 79.0714V79.0714L79.9514 104.087C75.5803 111.836 67.7867 117.047 58.9554 118.124L38.9652 120.564C27.0346 122.02 15.5058 115.699 10.3172 104.857L7.62297 99.2279C2.9922 89.552 4.52857 78.0525 11.5371 69.9316L19.1139 61.1522C24.5514 54.8516 31.1315 49.6363 38.5072 45.7812L107.188 9.88393L121.406 0L118.132 11.5061C115.955 19.1589 115.043 27.1162 115.433 35.0632L115.938 45.3522Z" />
+      <path id="a1"
+        d="M145.512 22.1182C150.363 18.0964 157.037 17.0781 162.867 19.4704V19.4704C166.396 20.9186 168.805 24.236 169.089 28.0403L171.616 61.8575C171.871 65.2674 172.624 68.6216 173.851 71.8132L183.378 96.5854C183.496 96.891 183.651 97.181 183.839 97.4489L186.333 101L183.217 100.308C179.086 99.3895 174.813 99.3001 170.647 100.045L165.3 101V101C165.3 96.2745 164.689 91.5688 163.483 86.9999L151.151 40.3046C150.374 37.3654 146.733 36.3321 144.529 38.4257L138.587 44.0692C131.593 50.7123 125.928 58.6262 121.893 67.3882L120 71.5L113.929 56.432C113.334 54.9549 112.177 53.775 110.711 53.1522L108 52L115.5 47L145.512 22.1182Z" />
+      <path id="a2"
+        d="M132.406 61.7094C139.162 55.2603 149.197 53.6497 157.632 57.6607L161.5 59.5L166.542 75.1638L152.737 70.6477C148.664 69.3152 144.665 72.8654 145.505 77.0678V77.0678C146.849 83.7866 152.593 88.7287 159.437 89.0546L168.628 89.4923C169.279 89.5233 169.875 89.8689 170.224 90.419L172.5 94L160.849 98.8576C159.094 99.5893 157.265 100.13 155.394 100.47L152.865 100.93C142.511 102.812 132.189 97.4762 127.738 87.9394L127.547 87.5288C123.46 78.7711 125.415 68.3824 132.406 61.7094V61.7094Z" />
+      <path id="u"
+        d="M187.951 52.5371C188.524 58.8128 193.786 63.6167 200.088 63.6167V63.6167C206.3 63.6167 211.518 58.9452 212.202 52.7713L215.253 25.2383C215.746 20.7925 215.33 16.293 214.03 12.0131L214 11.915L222.775 9.53471C224.489 9.06975 226.162 8.46719 227.78 7.7329L236 4L234.827 5.76473C232.136 9.81485 230.373 14.4097 229.665 19.2205L221.366 75.5784C218.57 94.5685 193.909 100.235 183.104 84.37V84.37C180.512 80.564 178.421 76.44 176.882 72.0998L174.937 66.6136C174.233 64.627 173.832 62.5457 173.747 60.4397L172.545 30.5156C172.256 23.3284 169.569 16.3621 165 10.8069V10.8069L174.522 14.2731C179.437 16.0621 184.707 16.6573 189.897 16.0095L190.738 15.9046V15.9046C187.278 21.6448 185.741 28.3393 186.351 35.0136L187.951 52.5371Z" />
+      <path id="r"
+        d="M233.047 28.7254V28.7254C238.339 31.9032 244.533 33.4527 250.7 33.1882V33.1882L247.533 38.4405C246.104 40.81 244.959 43.3391 244.121 45.976V45.976L255.7 43.4755C260.044 42.5374 264.583 43.4123 268.267 45.898V45.898C273.45 49.395 279.56 51.2634 285.813 51.2634L286.5 51.2634L282.941 54.2256C278.112 58.2441 274.357 63.3987 272.012 69.2267V69.2267V69.2267C270.91 66.4838 269.167 64.0454 266.928 62.1163L265.175 60.6062C263.449 59.1196 261.247 58.3019 258.97 58.3019L240.49 58.3019L239.302 83.2947V83.2947C238.012 92.3756 239.301 101.636 243.021 110.02L244.121 112.5L230.784 106.885C223.75 103.924 216.001 103.094 208.5 104.5V104.5L218.287 89.1046C222.406 82.6257 224.977 75.2853 225.802 67.6525L228.115 46.2535C228.575 41.9913 229.582 37.8061 231.111 33.8008L233.047 28.7254Z" />
+      <path id="i1"
+        d="M292.941 76.2C292.149 81.8 288.512 84 283.05 84C277.587 84 274.148 77.5228 274.148 72C274.148 66.4772 277.587 64 283.05 64C288.512 64 294.325 70.6 292.941 76.2Z" />
+      <path id="i2"
+        d="M295.945 80.5L294.648 97.5L290.148 124.5L289.072 123.491C284.623 119.321 278.755 117 272.657 117L268.148 117L274.617 103.38C276.578 99.2517 277.066 94.576 275.999 90.1316L274.648 84.5L279.445 86.0352C284.211 87.5603 289.429 86.4257 293.131 83.0591L295.945 80.5Z" />
+    </svg>
+    <div id="buttons">
+      <svg class="button" viewbox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+        <path id="cs"
+          d="m305.4,395.2c-102.20994,0 -147,1.34807 -185,-140c-38,-141.34807 82.79006,-140 185,-140c102.20994,0 313,-40.34807 303,177c-10,217.34807 -200.79006,103 -303,103z" />
+        <text xml:space="preserve" class="buttontext" y="275" x="300">cs</text>
+      </svg>
 
-      <!-- logo -->
-      <a class="navbar-brand" onclick="kachow()">
-        <p class="logo" id="logo">gauri iyer</p>
-      </a>
-
-      <!-- links to pages -->
-      <div class="collapse navbar-collapse justify-content-end" id="nav-content">
-        <ul class="navbar-nav">
-          <li class="active">
-            <a class="nav-link" href="./">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./cs/">cs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./music/">music</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./community/">community</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <hr>
-
-    <!-- page text -->
-    <div class="outer">
-      <h1 class="text-center">home</h1>
-      <div class="row">
-        <div class="col-md-4 my-auto">
-          <img src="img/newme.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
-        </div>
-
-        <div class="col-sm-8 hastext my-auto">
-          <div class="row heading">what I'm doing: </div>
-          <div class="row"> UX Engineer @ Google + occasional &nbsp;<a href="./yoga">yoga teacher</a></div>
-          
-          <div class="row heading">studied:</div>
-          <div class="row"> UC San Diego, M.S. in computer science, depth in HCI '20; </div>
-          <div class="row"> UC San Diego, B.S. in computer science, minor in music '19 </div>
-
-          <div class="row heading">interned at:</div>
-          <div class="row"> Google '19 (SWE), Amazon '18 (SWE), Northrop Grumman '17 (SWE), HyTrust '16 (Technical Writer)</div>
-
-          <div class="row heading">interested in:</div>
-          <div class="row">CSEd, e-learning, accessibility design, UX, HCI</div>
-
-          <div class="row heading">where I am right now:</div>
-          <div class="row">California </div>
-
-
-        </div>
-
-      </div>
+      <svg class="button" viewbox="0 0 800 475" xmlns="http://www.w3.org/2000/svg">
+        <path id="music"
+          d="m194.4,437.2c-102.20994,0 -115,-90.65193 -74,-182c41,-91.34807 -13.20994,-114 185,-140c198.20994,-26 392,-48.34807 382,169c-10,217.34807 -390.79006,153 -493,153z" />
+          <text xml:space="preserve" class="buttontext" y="300" x="240">music</text>
+        </svg>
+      <svg class="button" viewbox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+        <path id="yoga"
+          d="m194.4,437.2c-102.20994,0 -160,-97.65193 -74,-182c86,-84.34807 -13.20994,-114 185,-140c198.20994,-26 369,121.65193 402,261c33,139.34807 -410.79006,61 -513,61z" />
+          <text xml:space="preserve" class="buttontext" y="315" x="300">yoga</text>
+        </svg>
     </div>
   </div>
-
-  <!-- footer -->
-  <footer>
-    <hr>
-    <p class="text-center">
-      contact me at
-      <a class="link" href="mailto:iyergauri@google.com">iyergauri@gmail.com</a>
-      or on linkedin at
-      <a class="link" href="https://www.linkedin.com/in/iyergauri/">iyergauri</a>
-    </p>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>

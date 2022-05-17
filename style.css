@@ -2,15 +2,50 @@
 
 body {
  background-color: linen;
- padding: 2rem;
 }
 
 .main {
- margin: auto;
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
  width: fit-content;
+ padding: 2rem 0;
 }
 
 #error {
+ font-family: 'Lora', serif;
+ font-weight: bold;
+}
+
+#logo {
+ fill:rgb(52, 66, 27);
+ width: 33%;
+ min-width: 120px;
+ margin: 0 auto;
+}
+
+#buttons {
+ display: flex;
+ flex-direction: row;
+}
+
+@media (max-width: 600px) {
+ #buttons {
+  flex-direction: column;
+ }
+}
+
+.button {
+ fill:darkolivegreen;
+ min-width: 120px;
+ margin: 0 auto;
+ width: 200px;
+ height: 100px;
+}
+
+.buttontext {
+ fill: linen;
+ font-size: 100px;
  font-family: 'Lora', serif;
  font-weight: bold;
 }
