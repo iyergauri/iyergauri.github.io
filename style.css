@@ -2,23 +2,39 @@
 
 body {
  background-color: linen;
+ background-image: url('./leaf.svg');
+ background-position: center top;
+ font-family: 'Lora', serif;
 }
 
 .main {
  display: flex;
  flex-direction: column;
  margin: 0 auto;
- width: fit-content;
- padding: 2rem 0;
+ width: 90%;
+ padding: 2rem 0.5rem;
+}
+
+@media (min-width: 600px) {
+ .main {
+  max-width: 600px;
+ }
+}
+
+p {
+ color: rgb(52, 66, 27);
+ font-weight: bold;
+ padding-bottom: 0.5rem;
+ text-align: center;
 }
 
 #error {
- font-family: 'Lora', serif;
- font-weight: bold;
+ display: block;
+ max-width: 80%;
 }
 
 #logo {
- fill:rgb(52, 66, 27);
+ fill: rgb(52, 66, 27);
  width: 33%;
  min-width: 120px;
  margin: 0 auto;
@@ -29,23 +45,51 @@ body {
  flex-direction: row;
 }
 
-@media (max-width: 600px) {
- #buttons {
-  flex-direction: column;
- }
-}
-
 .button {
- fill:darkolivegreen;
+ fill: darkolivegreen;
  min-width: 120px;
  margin: 0 auto;
- width: 200px;
- height: 100px;
+ max-width: 200px;
+ max-height: 100px;
+ cursor: pointer;
+}
+
+.button.on {
+ fill: none;
+ stroke:rgb(52, 66, 27);
+ stroke-width: 4px;
+}
+
+.button:hover {
+ fill: olivedrab;
+ stroke:rgb(52, 66, 27);
+ stroke-width: 2px;
+}
+
+.button:hover .buttontext {
+ stroke:none;
+}
+
+.button.on .buttontext {
+ fill:rgb(52, 66, 27);
 }
 
 .buttontext {
  fill: linen;
  font-size: 100px;
- font-family: 'Lora', serif;
  font-weight: bold;
+}
+
+.hide {
+ visibility: collapse;
+ height: 0;
+}
+
+a, a:hover, a:visited {
+ color: rgb(52, 66, 27);
+}
+
+#break {
+ margin: 0 auto;
+ padding-top: 1rem;
 }

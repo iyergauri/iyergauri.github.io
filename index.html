@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="function.js"></script>
   <!-- todo add favicon -->
 </head>
 
@@ -28,23 +30,40 @@
         d="M295.945 80.5L294.648 97.5L290.148 124.5L289.072 123.491C284.623 119.321 278.755 117 272.657 117L268.148 117L274.617 103.38C276.578 99.2517 277.066 94.576 275.999 90.1316L274.648 84.5L279.445 86.0352C284.211 87.5603 289.429 86.4257 293.131 83.0591L295.945 80.5Z" />
     </svg>
     <div id="buttons">
-      <svg class="button" viewbox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
-        <path id="cs"
+      <svg class="button" id="cs" viewbox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+        <path class="buttonsvg"
           d="m305.4,395.2c-102.20994,0 -147,1.34807 -185,-140c-38,-141.34807 82.79006,-140 185,-140c102.20994,0 313,-40.34807 303,177c-10,217.34807 -200.79006,103 -303,103z" />
         <text xml:space="preserve" class="buttontext" y="275" x="300">cs</text>
       </svg>
-
-      <svg class="button" viewbox="0 0 800 475" xmlns="http://www.w3.org/2000/svg">
-        <path id="music"
+      <svg class="button" id="music" viewbox="0 0 800 475" xmlns="http://www.w3.org/2000/svg">
+        <path class="buttonsvg"
           d="m194.4,437.2c-102.20994,0 -115,-90.65193 -74,-182c41,-91.34807 -13.20994,-114 185,-140c198.20994,-26 392,-48.34807 382,169c-10,217.34807 -390.79006,153 -493,153z" />
-          <text xml:space="preserve" class="buttontext" y="300" x="240">music</text>
-        </svg>
-      <svg class="button" viewbox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
-        <path id="yoga"
+        <text xml:space="preserve" class="buttontext" y="300" x="240">music</text>
+      </svg>
+      <svg class="button" id="yoga" viewbox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+        <path class="buttonsvg"
           d="m194.4,437.2c-102.20994,0 -160,-97.65193 -74,-182c86,-84.34807 -13.20994,-114 185,-140c198.20994,-26 369,121.65193 402,261c33,139.34807 -410.79006,61 -513,61z" />
-          <text xml:space="preserve" class="buttontext" y="315" x="300">yoga</text>
-        </svg>
+        <text xml:space="preserve" class="buttontext" y="315" x="300">yoga</text>
+      </svg>
     </div>
+    <div id="cstext" class="summary hide">
+      <p> i got my bachelor's and my master's in computer science at ucsd, the latter of which includes an HCI
+        specialization. i've been at google since august 2020 working as a UX engineer. <a href="resume.pdf">here</a> is
+        my full resume.
+      </p>
+    </div>
+    <div id="musictext" class="summary hide">
+      <p> i am classically trained on the piano and have done dozens of solo performances along with accompaniment for
+        choir, orchestra, opera, musical theatre, solo instrumentalists, and pop bands.</p>
+    </div>
+    <div id="yogatext" class="summary hide">
+      <p> i am a registered yoga teacher via a 200-hour yoga teacher training and have done a 100-hour meditation series. i taught free classes in san diego before moving to san francisco.</p>
+    </div>
+    
+    <div id="break">🪴</div>
+    <p>hello! my name is gauri. the way you pronounce it is like saying "go read" without the d at the end.</p>
+    <p>in tech, i like working on intuitive design and product ideation. i'm looking for a career switch from front-end
+      dev to ux, product, or sales.</p>
   </div>
 </body>
 
